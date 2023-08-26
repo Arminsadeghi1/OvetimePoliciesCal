@@ -10,7 +10,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01_OvetimePolicies_Core\01_OvetimePolicies_Core.csproj" />
+    <ProjectReference Include="..\02_OvetimePolicies_Data\02_OvetimePolicies_Data.csproj" />
+    <ProjectReference Include="..\03_OvetimePolicies_dlls\03_OvetimePolicies_dlls.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OvetimePolicies", "OvetimeP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_OvetimePolicies_dlls", "03_OvetimePolicies_dlls\03_OvetimePolicies_dlls.csproj", "{1E39234A-267F-436E-8AB1-A2985730C9C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_OvetimePolicies_Data", "02_OvetimePolicies_Data\02_OvetimePolicies_Data.csproj", "{CFDEBC81-34D9-4952-ACAD-95D3A645BD3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_OvetimePolicies_Core", "01_OvetimePolicies_Core\01_OvetimePolicies_Core.csproj", "{4F9438E3-7D21-4EF1-A18B-ACA17489B224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1E39234A-267F-436E-8AB1-A2985730C9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E39234A-267F-436E-8AB1-A2985730C9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E39234A-267F-436E-8AB1-A2985730C9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDEBC81-34D9-4952-ACAD-95D3A645BD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDEBC81-34D9-4952-ACAD-95D3A645BD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDEBC81-34D9-4952-ACAD-95D3A645BD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDEBC81-34D9-4952-ACAD-95D3A645BD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9438E3-7D21-4EF1-A18B-ACA17489B224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9438E3-7D21-4EF1-A18B-ACA17489B224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9438E3-7D21-4EF1-A18B-ACA17489B224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9438E3-7D21-4EF1-A18B-ACA17489B224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
